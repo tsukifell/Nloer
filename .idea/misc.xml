@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/drawable/rounded_pic.xml" value="0.127" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/about_creator.xml" value="0.1" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/about_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_about.xml" value="0.16" />
         <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_card.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_detail.xml" value="0.176" />
         <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_main.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_splash.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/menu/about_main.xml" value="0.1" />
       </map>
     </option>
   </component>

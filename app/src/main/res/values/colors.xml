@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="naviLow">#3F797F</color>
+    <color name="bgNavi">#D5E1E3</color>
+    <color name="wSmoke">#8EC6CA</color>
+    <color name="txtComp">#E8F3F3</color>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="14dp"
+    android:background="@color/bgNavi"
     android:padding="10dp"
     tools:context=".DetailActivity">
 
@@ -20,6 +20,7 @@
         android:id="@+id/tv_detail_nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="Nama Angkringan"
         android:textSize="22sp"
         android:textStyle="bold"

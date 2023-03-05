@@ -5,6 +5,9 @@
     <string name="menu_angkringan">List Menu</string>
     <string name="title">ANGKRINGAN WONGKITO</string>
     <string name="lmenu">List Menu</string>
+    <string name="about">About</string>
+    <string name="about_nama">Calvin Saputra</string>
+    <string name="about_email">calvinsaputra217@gmail.com</string>
 
     <string-array name="data_name">
         <item>Angkringan Babakaran</item>
