@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">NgangkringLoer</string>
+    <string name="title_angkringan">Nama Angkringan</string>
+    <string name="about_angkringan">Tentang Angkringan</string>
+    <string name="menu_angkringan">List Menu</string>
+    <string name="title">ANGKRINGAN WONGKITO</string>
+
+    <string-array name="data_name">
+        <item>Angkringan Babakaran</item>
+        <item>Angkringan Mang Pen</item>
+        <item>Angkringan Gaskuy</item>
+        <item>Angkringan AbaSanto</item>
+        <item>Angkringan Mas Ve</item>
+        <item>Angkringan Ngehek</item>
+        <item>Angkringan Semar</item>
+        <item>Angkringan Kopi Bro</item>
+        <item>Angkringan Pewe</item>
+        <item>Angkringan Dewe</item>
+    </string-array>
+
+    <string-array name="data_addressOpHour">
+        <item>Angkringan Babakaran terletak di Jl. Prajurit Nazaruddin No.131 A, Kalidoni, Sekojo dan memiliki jam operasional di hari Senin s/d Minggu pada jam 13:30 s/d 21:00</item>
+        <item>Angkringan Mang Pen terletak di Jl. Segara, 14 Ilir, Ilir Timur 1, Palembang dan memiliki jam operasional di hari Senin s/d Minggu pada jam 18:00 s/d 22:00</item>
+        <item>Angkringan Gaskuy terletak di Jl. Kapen Arivai, Ilir Barat 1, Palembang dan memiliki jam operasional di hari Senin s/d Minggu pada jam 17:00 s/d 23.59 </item>
+        <item>Angkringan AbaSanto terletak di Jl. Kebun Bunga No.1742, RT.16, RW.05, Kebun Bunga, Sukarami dan memiliki jam operasional di hari Senin s/d Minggu pada jam 08:00 s/d 22:00</item>
+        <item>Angkringan Mas Ve terletak di Jl. Kenanga No.30 RT.01/01, Kel.20 Ilir D-IV, Ilir Timur 1 dan memiliki jam operasional di hari Senin s/d Minggu pada jam 9:00 s/d 21:00 </item>
+        <item>Angkringan Ngehek terletak di Jl. Mayor Ruslan, No.2003, Kemuning dan memiliki jam operasional di hari Senin s/d Minggu pada jam 17:20 s/d 23:00</item>
+        <item>Angkringan Semar terletak di Jl. KH Ahmad Dahlan No. 33, Talang Semut, Bukit Kecil dan memiliki jam operasional di hari Senin s/d Minggu pada jam 18:00 s/d 23:00</item>
+        <item>Angkringan Kopi Bro terletak di Jl. Jenderal Sudirman, No. 2937C, Ilir Timur 1 dan memiliki jam operasional di hari Senin s/d Kamis pada jam 18:30 s/d 1:00 </item>
+        <item>Angkringan Pewe terletak di Jl. Trikora No.4720, 20 Ilir D. III, Kec. Ilir Timur 1 dan memiliki jam operasional di hari Selasa s/d Minggu pada jam 16:00 s/d 23:45</item>
+        <item>Angkringan Dewe terletak di Jl. Lettu Roni No. 1182 Depan Musholla Sa\'adatul Ihsaan), Ilir Timur II dan memiliki jam operasional di hari Senin s/d Minggu pada jam 14:00 s/d 17:30</item>
+    </string-array>
+
+    <string-array name="data_menu">
+        <item>Nasi Bakar Ayam, Sate Usus Bakar, Sate Kulit Ayam Bakar, Sosis, Otak-Otak Singapore, Sate Brutu, Sate Kerang, Bakso Bakar, Sate Ampela, Sate Ceker, Sate Leher Ayam</item>
+        <item>Sate Kerang, Sate Udang, Sate Tahu, Sate Tempe, Sate Pentol, Sate Ati Ampela, Sate Cumi, Ceker Ayam, Pempek, Martabak</item>
+        <item>Nasi Goreng Telur, Nasi Goreng Sosis, Nasi Goreng Ayam, Nasi Goreng Spesial Kuyy, Pecel Ayam, Sop Ayam, Bandrek, Kopi Susu, Susu Soad, Blue Sky Ocean Ayam Geprek, Es Teh</item>
+        <item>Martabak Telur Ayam, Martabak Telur Bebek, Es Puter, Kopi Hitam, Wedang Jahe, Es Teh Manis, Es Teh Susu, Es Cappucino</item>
+        <item>Roti Panggang, Mie Celor, Miso, Es Kuwut Bali, Bakso Goreng, Otak-Otak Ayam, Nugget Ayam, Sosis, Indomie, Nasi Goreng, Sop Ayam</item>
+        <item>Cikuwa, Crab Stick, Salmon Ball, Stick Ikan, Sosis Ayam, Bakso Ayam, Bola Udang, Tahu Bacem, Tempe Bacem, Seblak, Teh Manis, Susu, Kopi Hitam, Bandrek Susu, Teh Hijau</item>
+        <item>Nasi Macan, Nasi Bakar Cumi Cabe Ijo, Nasi Bakar Teri Ayam Jamur Tiram, Nasi Teri, Tempe Bacem, Tahu Bacem, Sate Kerang, Sate Gondang, Sate Kornet Koin, Sate Bakar Pedas Manis, Sate Sosis Bekar, Sate Telur Puyuh, Sate Bakso, Sate Sosis, Sate Kulit Ayam, Sate Brutu Ayam, Bakwan Setan, Risoles, Tahu Mendoan, Kopi Susu, Teh, Bandrek, Wedang Jahe</item>
+        <item>Indomie, Mie Goreng Korea, Ceker, Bakso Salmon, Tempe Bacem, Tempe Mendoan, Sosis, Sate Hati Ampela, Bakso Lobster, Sayap, Bakwan Jagung, Mie Ayam Bakso, Mie Ayam Ceker, Juice Mangga, Juice Buah Naga, Juice Apel, Juice Alpukat, Bandrek, Kopi Hitam</item>
+        <item>Nasi Ayam Geprek, Nasi Goreng Telur, Mie Goreng, Mie Kuah, Mie Goreng Telur, Mie Kuah Telur, Roti Panggang Cokelat, Roti Pangggang Keju, Roti Panggang Meses, Pisang Goreng, Pisang Goreng Keju, Kentang Goreng, Sosis, Kopi Hitam, Cappucino, Kopi Susu, Kopi Gula Aren, Thai Tea, Es Susu, Susu Soda, Es Cokelat, Es Jeruk</item>
+        <item>Laksan, Celimpungan, Klepon, Kolak Pisang, Agar-Agar, Pempek Pistel, Risoles, Kue Kojo, Martabak Kentang, Ragit</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/angkringan_babakaran</item>
+        <item>@drawable/angkringan_mangpen</item>
+        <item>@drawable/angkringan_gaskuy</item>
+        <item>@drawable/angkringan_abasanto</item>
+        <item>@drawable/angkringan_masve</item>
+        <item>@drawable/angkringan_ngehek</item>
+        <item>@drawable/angkringan_semar</item>
+        <item>@drawable/angkringan_kopibro</item>
+        <item>@drawable/angkringan_pewe</item>
+        <item>@drawable/angkringan_dewe</item>
+    </integer-array>
+
+</resources>
