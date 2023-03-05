@@ -8,4 +8,5 @@ data class Angkringan (
     val name: String?,
     val description: String?,
     val photo: Int,
+    val menu: String?
 ): Parcelable

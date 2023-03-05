@@ -10,11 +10,12 @@
 
     <ImageView
         android:id="@+id/iv_detail_foto"
-        android:layout_below="@id/tv_nama"
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_detail_nama"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:scaleType = "fitXY"
         />
+
     <TextView
         android:id="@+id/tv_detail_nama"
         android:layout_width="wrap_content"
@@ -24,12 +25,61 @@
         android:textStyle="bold"
         android:layout_marginBottom="12dp"/>
 
-    <TextView
-        android:id="@+id/tv_detail_deskripsi"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:id="@+id/sv_scroll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/iv_detail_foto"
-        android:layout_marginTop="12dp"
-        android:text="Detail Angkringan"
-        android:justificationMode="inter_word"/>
+        android:layout_above="@id/action_share">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Deskripsi:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_detail_deskripsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_keterangan"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                android:text="Detail Angkringan" />
+
+            <TextView
+                android:id="@+id/tv_daftarMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_detail_deskripsi"
+                android:layout_marginTop="15dp"
+                android:text="Daftar Menu:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_detail_listMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_daftarMenu"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                android:text="Menu Angkringan" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/action_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"/>
+
+
 </RelativeLayout>

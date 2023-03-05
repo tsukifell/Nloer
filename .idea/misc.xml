@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_card.xml" value="0.10740740740740741" />
-        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_detail.xml" value="0.2" />
+        <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_detail.xml" value="0.176" />
         <entry key="..\:/Users/User/Documents/MDP/Nloer/app/src/main/res/layout/activity_main.xml" value="0.15172101449275363" />
       </map>
     </option>
@@ -14,5 +14,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
   </component>
 </project>

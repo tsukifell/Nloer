@@ -23,9 +23,10 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_addressOpHour)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataMenu = resources.getStringArray(R.array.data_menu)
         val listAngkringan = ArrayList<Angkringan>()
         for (i in dataName.indices){
-            val angkringan = Angkringan(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val angkringan = Angkringan(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataMenu[i])
             listAngkringan.add(angkringan)
         }
         return listAngkringan

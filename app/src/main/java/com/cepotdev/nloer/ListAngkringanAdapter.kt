@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import org.w3c.dom.Text
 
 class ListAngkringanAdapter(private val listAngkringan: ArrayList<Angkringan>): RecyclerView.Adapter<ListAngkringanAdapter.ListViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -17,10 +18,11 @@ class ListAngkringanAdapter(private val listAngkringan: ArrayList<Angkringan>): 
     override fun getItemCount(): Int  = listAngkringan.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listAngkringan[position]
+        val (name, description, photo, menu) = listAngkringan[position]
         holder.tvName.text = name
         holder.tvDescription.text = description
         holder.ivPhoto.setImageResource(photo)
+        holder.tvMenu.text = menu
 
         holder.itemView.setOnClickListener{
             val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
@@ -33,6 +35,7 @@ class ListAngkringanAdapter(private val listAngkringan: ArrayList<Angkringan>): 
         val ivPhoto: ImageView = itemView.findViewById(R.id.iv_foto)
         val tvName: TextView = itemView.findViewById(R.id.tv_nama)
         val tvDescription: TextView = itemView.findViewById(R.id.tv_deskripsi)
+        val tvMenu: TextView = itemView.findViewById(R.id.tv_listMenu)
 
     }
 

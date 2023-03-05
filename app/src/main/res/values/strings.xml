@@ -4,6 +4,7 @@
     <string name="about_angkringan">Tentang Angkringan</string>
     <string name="menu_angkringan">List Menu</string>
     <string name="title">ANGKRINGAN WONGKITO</string>
+    <string name="lmenu">List Menu</string>
 
     <string-array name="data_name">
         <item>Angkringan Babakaran</item>
